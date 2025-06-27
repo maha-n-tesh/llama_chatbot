@@ -18,3 +18,4 @@ def chat(request : ChatRequest):
 @app.get('/')
 def root():
     return {"Message" : "Welcome to the LLaMA Chatbot API. Use /chat with POST."}
+
