@@ -85,7 +85,7 @@ http://127.0.0.1:8000
 
 ## How to Test the Chatbot
 
-### Swagger UI (No setup needed)
+### Swagger UI
 
 Visit:
 
