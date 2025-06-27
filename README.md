@@ -13,9 +13,7 @@ A simple RESTful chatbot service powered by a local LLaMA model and served via F
 
 - REST API using FastAPI
 - Language model: LLaMA (local `.gguf`)
-- Fast and lightweight (no frontend)
 - Receives messages, returns AI-generated text
-- Built for hiring task submission
 
 ---
 
@@ -23,11 +21,13 @@ A simple RESTful chatbot service powered by a local LLaMA model and served via F
 
 ```graphql
 llama-chatbot/
-├── main.py             # FastAPI app with /chat endpoint
-├── model.py            # LLaMA model logic and text generation
+├── app/             
+│   ├── main.py         # FastAPI app with /chat endpoint
+│   └── model.py        # LLaMA model logic and text generation
+└── models/             # Folder to place your .gguf model file
 ├── requirements.txt    # Python packages
 ├── README.md           # Project documentation
-└── models/             # Folder to place your .gguf model file
+
 ```
 
 ---
