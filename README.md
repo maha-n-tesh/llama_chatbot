@@ -16,9 +16,7 @@ A simple RESTful chatbot service powered by a local LLaMA model and served via F
 
 ## Project Structure
 
-```
-graphql
-CopyEdit
+```graphql
 llama-chatbot/
 ├── main.py             # FastAPI app with /chat endpoint
 ├── model.py            # LLaMA model logic and text generation
@@ -55,8 +53,13 @@ pip install -r requirements.txt
 
 ## Model Setup
 
+### Download the Model (.gguf format)
+
+You can download the required model manually from Hugging Face:
+
+[Click here to download `llama-2-7b-chat.Q4_K_M.gguf`](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_M.gguf)
+
 - LLaMA models are large and not included in this repo.
-- Download `.gguf` model files (like `llama-2-7b-chat.Q4_K_M.gguf`) from Hugging Face.
 - Place the file inside the `models/` directory.
 
 ---
