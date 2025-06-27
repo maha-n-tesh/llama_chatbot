@@ -67,7 +67,7 @@ You can download the required model manually from Hugging Face:
 ## Running the API
 
 ```bash
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 
 Access the API at:
