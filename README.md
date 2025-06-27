@@ -24,9 +24,9 @@ llama_chatbot/
 ├── app/             
 │   ├── main.py         # FastAPI app with /chat endpoint
 │   └── model.py        # LLaMA model logic and text generation
-└── models/             # Folder to place your .gguf model file
+├── models/             # Folder to place your .gguf model file
 ├── requirements.txt    # Python packages
-├── README.md           # Project documentation
+└── README.md           # Project documentation
 
 ```
 
@@ -58,14 +58,29 @@ pip install -r requirements.txt
 
 ## Model Setup
 
-### Download the Model (.gguf format)
+This project uses the **LLaMA 2-7B Chat model** in `.gguf` format, running locally via `llama-cpp-python`.
 
-You can download the required model manually from Hugging Face:
+> The model file is **not included** in this repository due to its large size (~3.8 GB).
 
-[Click here to download `llama-2-7b-chat.Q4_K_M.gguf`](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_M.gguf)
+---
 
-- LLaMA models are large and not included in this repo.
-- Place the file inside the `models/` directory.
+### Download the Model File
+
+**[Click here to directly download `llama-2-7b-chat.Q4_K_M.gguf`](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_M.gguf)**
+
+> This link will automatically start downloading the model file.
+
+---
+
+### Place the File in the Correct Location
+
+Once downloaded, Place the file inside the `models/` directory:
+```graphql
+llama_chatbot/
+├── models/
+    └── llama-2-7b-chat.Q4_K_M.gguf
+
+```
 
 ---
 
