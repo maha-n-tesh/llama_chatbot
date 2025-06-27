@@ -4,6 +4,11 @@ A simple RESTful chatbot service powered by a local LLaMA model and served via F
 
 ---
 
+## Postman Demo
+> Here's a sample interaction with the chatbot using Postman:
+![image](https://github.com/user-attachments/assets/78e7d86f-ebe2-42ec-8960-8b26755e5729)
+
+---
 ## Overview
 
 - REST API using FastAPI
@@ -106,7 +111,7 @@ Try the `/chat` endpoint with:
 
 ```json
 {
-  "message": "Tell me about FastAPI"
+  "message": "write a code to check the number is even or odd"
 }
 ```
 
@@ -121,22 +126,6 @@ formatted_prompt = f"[INST] {user_input} [/INST]"
 ```
 
 It also uses stop tokens like `["</s>", "User:", "Assistant:"]` to avoid long or hallucinated replies.
-
----
-
-## Sample Input & Output
-
-**Input:**
-
-```json
-{ "message": "What is FastAPI?" }
-```
-
-**Response:**
-
-```json
-{ "response": "FastAPI is a modern, high-performance web framework for building APIs with Python." }
-```
 
 ---
 
