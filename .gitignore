@@ -1,0 +1,7 @@
+models/*
+!models/.gitkeep
+__pycache__/
+*.gguf
+chatenv/
+.env
+*.log
