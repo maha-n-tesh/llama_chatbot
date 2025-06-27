@@ -1,4 +1,4 @@
-# LLaMA Chatbot API using FastAPI
+# LLaMA Chatbot
 
 A simple RESTful chatbot service powered by a local LLaMA model and served via FastAPI. Sends AI-generated responses to user messages through a `/chat` endpoint.
 
