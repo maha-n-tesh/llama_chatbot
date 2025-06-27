@@ -20,7 +20,7 @@ A simple RESTful chatbot service powered by a local LLaMA model and served via F
 ## Project Structure
 
 ```graphql
-llama-chatbot/
+llama_chatbot/
 ├── app/             
 │   ├── main.py         # FastAPI app with /chat endpoint
 │   └── model.py        # LLaMA model logic and text generation
@@ -38,7 +38,7 @@ llama-chatbot/
 
 ```bash
 git clone https://github.com/maha-n-tesh/llama_chatbot.git
-cd llama-chatbot
+cd llama_chatbot
 ```
 
 ### Step 2: Create and activate virtual environment
