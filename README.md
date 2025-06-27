@@ -32,7 +32,7 @@ llama-chatbot/
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/your-username/llama-chatbot.git
+git clone https://github.com/maha-n-tesh/llama_chatbot.git
 cd llama-chatbot
 ```
 
